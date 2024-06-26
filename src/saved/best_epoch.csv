@@ -1,2 +1,0 @@
-lr,a,best_epoch,best_ddi_rate,best_ja,best_avg_f1,best_prauc,best_avg_med,best_avg_p,best_avg_r
-0.0005,0.9,1,0.0439,0.4784,0.6379,0.7347,19.9122,0.6419,0.6693

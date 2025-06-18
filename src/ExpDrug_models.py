@@ -139,11 +139,10 @@ class ExpDrug(nn.Module):
             if len(input) <= 1 or idx==0:
                 med_1 = torch.zeros((1, 1, self.emb_dim)).to(self.device)
             else:
-                 adm[2] = input[idx - 1][2][:]
-                 a = adm[2]
+                 a= input[idx - 1][2][:]
                  med_1 = sum_embedding(
                      self.dropout(
-                         self.embeddings[2](torch.LongTensor(adm[2]).unsqueeze(dim=0).to(self.device))))
+                         self.embeddings[2](torch.LongTensor(a).unsqueeze(dim=0).to(self.device))))
             med_seq.append(med_1)
 
 

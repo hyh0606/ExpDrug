@@ -32,7 +32,7 @@ parser.add_argument("--Test", action="store_true", default=False, help="test mod
 parser.add_argument("--model_name", type=str, default=model_name, help="model name")
 parser.add_argument("--resume_path", type=str, default=resume_path, help="resume path")
 parser.add_argument("--lr", type=float, default=5e-4, help="learning rate")
-parser.add_argument("--target_ddi", type=float, default=0.06, help="target ddi")
+parser.add_argument("--target_ddi", type=float, default=0.065, help="target ddi")
 parser.add_argument("--kp", type=float, default=0.05, help="coefficient of P signal")
 parser.add_argument("--dim", type=int, default=64, help="dimension")
 parser.add_argument("--cuda", type=int, default=0, help="which cuda")

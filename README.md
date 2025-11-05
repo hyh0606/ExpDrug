@@ -1,10 +1,5 @@
 # ExpDrug
 
-## Requirements
-
-- PyTorch 1.13.0 and CUDA 12.2.
-- The learning rate of 5e−4 for 50 epochs.
-
 ## Folder Specification
 
 ### Dataset Preparation
